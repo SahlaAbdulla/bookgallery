@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite PT", cursive;
+}
+header{
+    background-color: cadetblue;
+    height: 50px;
+
+}
+header h1{
+    text-align: center;
+    padding: 5px;
+    color: rgb(223,146,45);
+    text-shadow: 2px 4px 6px white;
+}
+.row{
+    background-color: rgb(87, 224, 224);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.col{
+    background-color: darkcyan;
+    width: 300px;
+    height: 500px;
+    margin-top: 30px;
+}
+img{
+    width: 200px;
+}
+img:hover{
+    box-shadow: 2px 3px 5px whitesmoke;
+}
+h2{
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 3px 5px white;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+#btn{
+    background-color: darkgreen;
+    color: beige;
+    padding: 5px;
+    border-radius: 20%;
+    margin-left: 50%;
+    cursor: pointer;
+}
+footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 250px;
+}
+h3{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 50px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.banner{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230521/pngtree-stack-of-books-on-top-of-a-table-image_2700507.jpg);
+    width: 100%;
+    height: 500px;
+}
